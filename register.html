@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function abc()
+ {
+    alert("The form was reset");
+}
+function bcd()
+{
+alert("Registration sucessfull")
+}
+</script>
+
+<style>
+input[type=text], select {
+    width:100%;
+    padding: 15px 20px;
+    margin: 7px 0;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email]
+{
+width:100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px ;
+    margin: 9px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#206F1B;                  // #45a049
+}
+input[type=reset]{
+width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset]:hover{
+background-color: #890303;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<title>Register</title>
+<body>
+<a href="blood.html"> 
+<img src="blood-logo.png" width="200" height="60"></a>
+<button type="button"; style=" float:right; background-color: #890303;
+    padding: 12px 25px;;
+    margin: 10px 0; border: none;
+    border-radius: 30px; "><a href="sign%20in.html"  title="Sign in" align="right" style=" color:white;">Sign in</font></a></button>
+<hr>
+<table bgcolor="#890303" cellspacing="10" width="100%" bordercolor="white">
+<thead>
+<tr>
+<th><a href="why%20give%20blood.html"  title="why" style="color:white;">Why to Donate?</font></a></th>
+<th><a href="who.html" title="Who" style="color:white;">Who can Donate?</font></a></th>
+<th><a href="register.html"  title="Become donor" style="color:white;"> Become a Donor </font></a></th>
+<th><a href='maps.html' title="where" style="color:white;">Where to donate</font></a></th>
+</tr>
+</thead>
+</table>
+<p style="color:gray;"> &nbsp<a href="blood.html" title="home" style="color:red">Home</font></a> >>>Register</p>
+<h1> &nbsp &nbsp Register here to become online donor</h1>
+<h5><i>&nbsp&nbsp&nbsp&nbsp&nbspYour online account will allow you to do the following:</i> </h5>
+<ul style="color:gray;">
+<li> Book an appointment</li>
+<li> View,change or cancle appointment</li>
+<li>View you recent donation history</li>
+<li>update your personal details</li>
+</ul>
+<p>&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp If you want to register as a new blood donor then you must be <b>atleast
+ 17 years old.</b>&nbspFind more about <a href="Who.html" title="can you?" style="color:red;">Who can 
+donate</font></a>&nbsp This service is for whole blood donors who donate in <b>India</b> Only.
+<div>
+  <form action="blood.html" onreset="abc()">
+   First Name*
+    <input type="text"  name="firstname" placeholder="Your first name here" required>
+
+   Last Name*
+   <input type="text"  name="lastname" placeholder="Last name here" required>
+   
+   E-mail*
+  <input type="email"  name="email" placeholder="xyz@gmail.com" required>
+
+ Contact Number*
+<input type="text"  name="Contact number"  required>
+ 
+Address(optional)
+<input type="text"  name="Address" placeholder="Address here" >
+
+Blood Group
+    <select name="Dropdown" required>
+<option value="select blood type">Select Blood type</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+      <option value="A+">A+</option>
+    <option value="A-">A-</option>
+         <option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+    </select>
+City*
+<input type="text" name="city" >
+
+   State
+    <select name="dropdown">
+      <option value="..">...</option>
+      <option value="..">...</option>
+      <option value="..">...</option>
+    </select>
+<p>Already have <b>account?</b> <a href="sign%20in.html" title="sign In" style="color:green;">Sign in</font><a/></p>
+<input type="reset">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+
+
+
+
+.box{
+	width: 400px;
+	height:400px;
+	background-color: #DBD6D6;
+	
+	
+	margin-left:425px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color:#151b1e;
+	border-width: 3px;
+
+}
+.box p{
+	height:0px;
+	margin-bottom: 0;
+	background-color:#890303;
+	color:#ffffff;
+	padding-left: 160px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+label{
+	margin-left:30px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+input[type=email]{
+	width:225px;
+	height:30px;
+	margin-top:80px;
+	margin-left: 46px;
+	padding-left:5px;
+
+
+
+}
+
+
+input[type=password]{
+	width:225px;
+	height:15px;
+	margin-top:50px;
+	margin-left: 8px;
+	padding-left:5px;
+
+}
+
+input[type=submit]{
+	width:100px;
+	height:32px;
+	font-size: 20px;
+	margin:60px 150px;
+	border-radius: 4px;
+	padding-bottom: auto;
+	padding-top: auto;
+	background-color:#34444c;
+	border:none;
+	color:#ffffff;
+	box-shadow: 5px 5px 2px #8c8c8c; 
+}
+
+
+input[type=submit]:hover{
+	border:none;
+	background-color: #263238;
+	color: #ffffff;
+	box-shadow: none;
+}

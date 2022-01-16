@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function abc()
+ {
+    alert("The form was reset");
+}
+</script>
+
+<style>
+input[type=text], select {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#206F1B;                 
+}
+input[type=reset]{
+align:right;
+width:200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset]:hover{
+background-color: #890303;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<title>Register</title>
+<body>
+<a href="blood.html"> 
+<img src="blood-logo.png" width="200" height="60"></a>
+<button type="button"; style=" float:right; background-color: #890303;
+    padding: 12px 25px;;
+    margin: 10px 0; border: none;
+    border-radius: 30px; "><a href="sign%20in.html"  title="Sign in" align="right" style=" color:white;">Sign in</font></a></button>
+<hr>
+<table bgcolor="#890303" cellspacing="10" width="100%" bordercolor="white">
+<thead>
+<tr>
+<th><a href="why%20give%20blood.html"  title="why" style="color:white;">Why to Donate?</font></a></th>
+<th><a href="who.html" title="Who" style="color:white;">Who can Donate?</font></a></th>
+<th><a href="register.html"  title="Become donor" style="color:white;"> Become a Donor </font></a></th>
+<th><a href='maps.html' title="where" style="color:white;">Where to donate</font></a></th>
+</tr>
+</thead>
+</table>
+<p style="color:gray;"> &nbsp<a href="blood.html" title="home" style="color:red">Home</font></a> >>>Doctors registration</p>
+<h1> &nbsp &nbsp Registration for doctors only</h1>
+<h5><i>&nbsp&nbsp&nbsp&nbsp&nbspYour online account will allow you to do the following:</i> </h5>
+<ul style="color:gray;">
+<li> View,change or cancle appointment</li>
+<li>View donation history of patients</li>
+<li>update your personal details</li>
+<li>View medical records of patients</li>
+</ul>
+<p>&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp When you sign up on our website, your Identification will be verified first
+ 
+<br>&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp This service is for Doctors in <b>India</b> Only.
+<div>
+  <form onreset="abc()">
+   First Name*
+    <input type="text"  name="firstname" required>
+
+   Last Name*
+   <input type="text"  name="lastname" required>
+   
+   E-mail*
+  <input type="text"  name="E-mail" required>
+
+ Contact Number*
+<input type="text"  name="Contact number" required>
+State
+    <select name="dropdown" required>
+      <option value="..">...</option>
+      <option value="..">...</option>
+      <option value="..">...</option>
+    </select>
+City*
+<input type="text" name="city" required>
+ 
+Address*
+<input type="text"  name="Address" required>
+
+Qualification*
+<input type="text"  name="Qualification" required>
+
+Specialization in?*
+<input type="text"  name="Specialization" required>
+<input type="checkbox" checked="checked" name="terms" value="Terms">The information I have entered is true to my knowledge and any necesasary disciplinary action can 
+be initiated against me in case of false information. <br>
+
+
+   
+<p>Already have <b>account?</b> <a href="sign%20in.html" title="sign In" style="color:green;">Sign in</font><a/></p>
+<input type="reset" style="float">
+    <input type="submit" style="float:right;" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
